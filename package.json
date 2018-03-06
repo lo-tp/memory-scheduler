@@ -1,0 +1,31 @@
+{
+  "name": "memory-scheduler",
+  "version": "1.0.0",
+  "description": "A better way to learn something new",
+  "main": "dist/index.js",
+  "author": "lo-tp",
+  "license": "MIT",
+  "scripts": {
+    "transform": "better-npm-run transform",
+    "start": "better-npm-run start"
+  },
+  "betterScripts": {
+    "transform": {
+      "command": "babel index.js -d dist",
+      "env": {
+              "NODE_ENV": "production"
+             }
+    }
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.3.0",
+    "better-npm-run": "^0.1.0",
+    "eslint": "^4.18.2",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1"
+  }
+}

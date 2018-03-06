@@ -1,0 +1,16 @@
+/.vscode/
+.DS_Store
+.idea/
+/.cache/
+/node_modules/
+/public/
+/build/
+/node_modules/
+/dist/
+/coverage/
+**/kryfe-components/
+npm-debug.log
+yarn-error.log
+*.swo
+*.swp
+.ackrc
