@@ -28,7 +28,7 @@ export default class SRM {
   getInitialRecord(now) {
     return {
       progress: 0,
-      dueDate: now + 1
+      dueDate: now
     };
   }
 }
