@@ -1,6 +1,6 @@
 {
   "name": "memory-scheduler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A better way to learn something new",
   "main": "dist/index.js",
   "author": "lo-tp",
